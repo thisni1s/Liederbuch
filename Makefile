@@ -15,7 +15,7 @@ all: $(patsubst Ausgaben/%.tex,Ausgaben/%.pdf,$(wildcard Ausgaben/*.tex)) $(pats
 clean: clean_Noten
 	rm -f Ausgaben/*.lb Ausgaben/.*.lb Ausgaben/*.aux Ausgaben/*.log Ausgaben/*.sxc Ausgaben/*.sxd Ausgaben/*.sbx Ausgaben/*.synctex.gz Ausgaben/*.out Ausgaben/*.fls Ausgaben/*.pdf Ausgaben/*.tmp Ausgaben/CompleteEdition.tex
 clean_Noten: 
-	rm -f $(patsubst ABC_Noten/%.abc,Noten/%.pdf,$(wildcard ABC_Noten/*.abc))
+	rm -f $(patsubst ABC_Noten/%.mcm,Noten/%.pdf,$(wildcard ABC_Noten/*.mcm))
 
 
 # targets for song PDFs
@@ -46,7 +46,7 @@ Noten: $(patsubst ABC_Noten/%.mcm,Noten/%.pdf,$(wildcard ABC_Noten/*.mcm))
 
 	
 # Generic targets for all books
-AUSGABE_DEPS = Ausgaben/%.tex $(wildcard Ausgaben/%/*.tex)
+AUSGABE_DEPS = Ausgaben/%.tex $(wildcard Ausgaben/%/*.tex) Noten
 
 Ausgaben/%.pdf: 		$(AUSGABE_DEPS) $(GENERIC_DEPS) Ausgaben/%.sbx
 	$(PDFLATEX)  -jobname=$(basename $@) $(basename $@).tex
@@ -83,4 +83,5 @@ Ausgaben/PfadiralalaIVplus.sbx.tmp: 	Ausgaben/PfadiralalaIV.sxd.tmp Ausgaben/Pfa
 
 # Special case: Generated Songbook with all Songs
 Ausgaben/CompleteEdition.tex: ./Tools/generate_songbook.sh
-	bash ./Tools/generate_songbook.sh > $@
+Ausgaben/CompleteSortedEdition.tex: Tools/generate_sorted_songbook.py Lieder/*.tex
+	python ./Tools/generate_sorted_songbook.py --by index --by txt --by mel --by titel Lieder/*.tex > $@
