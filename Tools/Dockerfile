@@ -30,6 +30,7 @@ RUN apt-get update \
         texlive-fonts-recommended \
         texlive-extra-utils \
         texlive-lang-german \
+        texlive-music \
         xzdec \
         ghostscript \
         make \
