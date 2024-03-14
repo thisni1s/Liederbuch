@@ -1,5 +1,10 @@
 \documentclass{book}
 
+% Pakete hier schon einbinden um Buchnamen mit Umlaut zu erlauben.
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp} % für promille zeichen!
+
 \providecommand{\bookname}{Mittelohrentzündung}
 
 \input{Misc/basic}
@@ -10,111 +15,144 @@
 \begin{document}
 \begin{songs}{Seitenzahlen}
 
-\input{Ausgaben/Tinnitus/Vorwort}
-\newpage
+	\input{Ausgaben/Tinnitus/Vorwort}
+	\newpage
 
-\showindex[2]{Inhaltsverzeichnis}{Seitenzahlen}
+	\showindex[2]{Inhaltsverzeichnis}{Seitenzahlen}
 
-% \begin{intersong}
-%     \nothumb
-%     \markboth{}{}
-%     \songchapter{Christliches}
-%     \vspace{40pt}
-%     \center
-%     \includegraphics[width=0.7\textwidth]{Bilder/Solid-Rustic-Cross.png}
-%     \newpage\null
-% \end{intersong}
+    \setthumb{A}{1}
+    \input{Lieder/AmericanPie} % Missing
+    \input{Lieder/AmWestermanns}
+    \input{Lieder/AnRheinUndRuhr} % Missing
 
-% \setthumb{D}{4}
-% \input{Lieder/Danke}
+    \setthumb{B}{2}
+    %\input{Lieder/BeiDir} % Missing
+    %\input{Lieder/BeiDuisburg} % Missing
+    %\input{Lieder/BigMe} % Missing
+    \input{Lieder/Bochum} % Missing
+    %\input{Lieder/Bullenwagen} % Missing
+
+    %\setthumb{C}{3}
+    %\input{Lieder/CropperLads} % Missing
+
+    \setthumb{D}{4}
+    %\input{Lieder/DasLilienbanner} % Missing %Bulibu S.13
+    \input{Lieder/DeineSchuld}
+    \input{Lieder/Dontlookbackinanger}
+    \input{Lieder/DreirotePfiffe}
+
+    \setthumb{E}{5}
+    \input{Lieder/EsistanderZeit}
+    \input{Lieder/Edelweisspiraten}
+
+    %\setthumb{F}{6}
+    %\input{Lieder/Freunde} % Missing
+
+    \setthumb{G}{7}
+    %\input{Lieder/GeborenWeilDuLebst} % Missing
+    %\input{Lieder/GrausigBraustEs} % Missing
+    \input{Lieder/GuteNachtFreunde}
+
+    \setthumb{H}{8}
+    \input{Lieder/HeyJude}
+    %\input{Lieder/HeySoulSister} % Missing
+    %\input{Lieder/HoheTannen} % Missing % Codex S.98
+    \input{Lieder/Hurt}
+
+    \setthumb{I}{9}
+    \input{Lieder/ISeeFire}
+
+    \setthumb{J}{10}
+    \input{Lieder/Jolene} 
+
+    \setthumb{K}{11}
+    \input{Lieder/Karrieresong}
+    %\input{Lieder/KeinLiebeslied} % Missing
+    \input{Lieder/KnockinonHeavensDoor}
+
+    \setthumb{L}{12}
+    %\input{Lieder/LichtAn} % Missing
+    \input{Lieder/LiedVomKnueppelchen} % Missing
+    %\input{Lieder/LinksradikalerSchlager} % Missing
+    %\input{Lieder/LittleLionMan} % Missing
+
+    \setthumb{M}{13}
+    \input{Lieder/Maenner}
+    %\input{Lieder/ManWhoSoldTheWOrld} % Missing
+
+    \setthumb{N}{14}
+    \input{Lieder/Numb} % Missing
+
+    %\setthumb{O}{15}
+    %\setthumb{P}{16}
+    %\input{Lieder/Petsamo} % Missing
+    %\input{Lieder/PfadfinderVomKernigenSchliff} % Missing
+    %\input{Lieder/Pochahontas} % Missing
+
+    %\setthumb{Q}{17}
+    \setthumb{R}{18}
+    \input{Lieder/RheinischeVandalen}
+
+    \setthumb{S}{19}
+    %\input{Lieder/SaintCecilia} % Missing
+    \input{Lieder/SantianoPop}
+	\input{Lieder/SchreinachLiebe}
+    \input{Lieder/Schilf}
+    %\input{Lieder/SchließAugUndOhr} % Missing % BulibuII S. 219, Liederbock blau S. 274, Tonspur S. 450
+    %\input{Lieder/SeiWachsam} % Missing
+    %\input{Lieder/StadtMitK} % Missing
+    %\input{Lieder/Susanne} % Missing
+
+    \setthumb{T}{20}
+    \input{Lieder/TimeToBeSleeping} % Missing
+	\input{Lieder/TrotzAlledem} % Missing
+    \input{Lieder/Tscherkessenlied} % Missing %Jurtenburg S.67, Tonspur S. 218
+
+    %\setthumb{U}{21}
+    \setthumb{V}{22}
+    %\input{Lieder/VivaLaVida} % Missing
+    \input{Lieder/VoranUndDraufUndDran}
+
+    \setthumb{W}{23}
+    %\input{Lieder/WavingFlag} % Missing
+    \input{Lieder/WayfaringStranger} % Missing
+    \input{Lieder/WelcomeToTheInternet} % Missing
+    \input{Lieder/WennderAbendnaht}
+    %\input{Lieder/WiederHier} % Missing
+    %\input{Lieder/WirLagenVor} % Missing %Jurtenburg S.277
+    \input{Lieder/WirScheissenAufKarriere}
+    \input{Lieder/WosnurFelsengibt}
+
+    %\setthumb{X}{24}
+    %\setthumb{Y}{25}
+    \setthumb{Z}{26}
+    \input{Lieder/Zombie}
+	%\input{Lieder/ZumMond} % Missing
 
 
-\input{Lieder/SchreinachLiebe}
-\input{Lieder/LiedVomKnueppelchen} % Missing
-%\input{Lieder/GeborenWeilDuLebst} % Missing
-%\input{Lieder/Freunde} % Missing
-\input{Lieder/SantianoPop}
-\input{Lieder/Hurt}
-%\input{Lieder/LittleLionMan} % Missing
-\input{Lieder/TrotzAlledem} % Missing
-\input{Lieder/EsistanderZeit}
-%\input{Lieder/SeiWachsam} % Missing
-\input{Lieder/KnockinonHeavensDoor}
-%\input{Lieder/BigMe} % Missing
-\input{Lieder/DreirotePfiffe}
-\input{Lieder/DeineSchuld}
-%\input{Lieder/ZumMond} % Missing
-\input{Lieder/GuteNachtFreunde}
-%\input{Lieder/Susanne} % Missing
-%\input{Lieder/Joline} % Missing
-%\input{Lieder/Pochahontas} % Missing
-%\input{Lieder/AmericanPie} % Missing
-\input{Lieder/ISeeFire}
-%\input{Lieder/WavingFlag} % Missing
-%\input{Lieder/SaintCecilia} % Missing
-%\input{Lieder/ManWhoSoldTheWOrld} % Missing
-%\input{Lieder/StadtMitK} % Missing
-%\input{Lieder/BeiDir} % Missing
-%\input{Lieder/KeinLiebeslied} % Missing
-%\input{Lieder/Numb} % Missing
-%\input{Lieder/LichtAn} % Missing
-%\input{Lieder/Bullenwagen} % Missing
-%\input{Lieder/HeySoulSister} % Missing
-%\input{Lieder/Bochum} % Missing
-%\input{Lieder/LinksradikalerSchlager} % Missing
-%\input{Lieder/VivaLaVida} % Missing
-%\input{Lieder/SchließAugUndOhr} % Missing % BulibuII S. 219, Liederbock blau S. 274, Tonspur S. 450
-%\input{Lieder/BeiDuisburg} % Missing
-\input{Lieder/Edelweisspiraten}
-\input{Lieder/AnRheinUndRuhr} % Missing
-%\input{Lieder/WayfaringStranger} % Missing
-%\input{Lieder/DasLilienbanner} % Missing %Bulibu S.13
-\input{Lieder/AmWestermanns}
-%\input{Lieder/Tscherkessenlied} % Missing %Jurtenburg S.67, Tonspur S. 218
-\input{Lieder/Dontlookbackinanger}
-\input{Lieder/Zombie}
-\input{Lieder/HeyJude}
-\input{Lieder/Maenner}
-%\input{Lieder/WirLagenVor} % Missing %Jurtenburg S.277
-\input{Lieder/WennderAbendnaht}
-\input{Lieder/Karrieresong} 
-\input{Lieder/RheinischeVandalen}
-\input{Lieder/VoranUndDraufUndDran}
-\input{Lieder/WirScheissenAufKarriere}
-\input{Lieder/WosnurFelsengibt}
-%\input{Lieder/CropperLads} % Missing
-%\input{Lieder/TimeToBeSleeping} % Missing
-%\input{Lieder/PfadfinderVomKernigenSchliff} % Missing
-%\input{Lieder/HoheTannen} % Missing % Codex S.98
-%\input{Lieder/WiederHier} % Missing
-\input{Lieder/Schilf}
-%\input{Lieder/WelcomeToTheInternet} % Missing
-%\input{Lieder/GrausigBraustEs} % Missing
 
 
+	\begin{intersong}
+		\nothumb
+		\newpage
+		\markboth{}{}
+		\songchapter{Anhang}
+		\vspace{40pt}
+		\center
+		\includegraphics[height=0.8\textheight]{Bilder/Anhang.png}
+		\newpage\null
+	\end{intersong}
 
-
-\begin{intersong}
-    \nothumb
-    \newpage
-    \markboth{}{}
-    \songchapter{Anhang}
-    \vspace{40pt}
-    \center
-    \includegraphics[height=0.8\textheight]{Bilder/Anhang.png}
-    \newpage\null
-\end{intersong}
-
-\nothumb
-\input{Misc/GrifftabelleUkuleleGCEA}
-\nothumb
-\input{Misc/GrifftabelleUkuleleADFisH}
-\nothumb
-\input{Misc/GrifftabelleUkuleleDGHE}
-\nothumb
-\input{Misc/GrifftabelleGitarre}
-\nothumb
-\input{Misc/Schlagmuster/Schlagmuster}
+	\nothumb
+	\input{Misc/GrifftabelleUkuleleGCEA}
+	\nothumb
+	\input{Misc/GrifftabelleUkuleleADFisH}
+	\nothumb
+	\input{Misc/GrifftabelleUkuleleDGHE}
+	\nothumb
+	\input{Misc/GrifftabelleGitarre}
+	\nothumb
+	\input{Misc/Schlagmuster/Schlagmuster}
 
 
 \end{songs}
