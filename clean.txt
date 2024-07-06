@@ -1,92 +1,71 @@
-INTRO:   G
-    G
-Die Stadt wird mir zu eng, muss mal raus
-     Bm
-Mein Dach fällt auf den Kopf, weil es ist so laut
-    Em
-Ich hab da ne Idee, bitte flipp nicht aus
-          A
-Wir gehen zelten zelten
-          C
-Ist schon viel zu lange her
-        D
-Viel zu selten gehn wir zelten
-    G
-Ein Shirt und Badehose, ich glaub das reicht
-            Bm
-Schmeiß die Sachen ins Gepäck, wir reisen leicht
-Em
-Kurz noch mal zur Tanke, bisschen Sprit bis gleich
-          A
-Wir gehen zelten zelten
-          C
-Ist schon viel zu lange her
-        D
-Viel zu selten gehn wir zelten
-CHORUS:
-Em                             D
-Und danach sitzen wir auf einem Feld
-                         A
-Nur du und ich und die Natur
-Zeig dir die Sterne am Himmelszelt
-C
-Mars, Venus, Pluto, Mond, Merkur
-Em                                   D
-Keine Palmen keinen Strand und kein Hotel
-                         A
-Nur du und ich und die Natur
-                     C
-Nur wir zwei und ein Zelt
-                            A
-Das wird die beste Party... beste Party
-INTERLUDE:   G   Bm   Em   A   C
-    G
-Ich fang uns jetzt ein Fisch, du hast Hunger und ich auch
-Bm
-Mach schon mal ein Feuer, das wird ein Festtagsschmaus
-Em
-Mücken können schon nerven, trotzdem sind wir gut drauf
-         A
-Denn wir zelten zelten
-          C
-Ist schon viel zu lange her
-        D
-Viel zu selten gehn wir zelten
-    G
-Ich hab `n Reh gesehen, komm wir spielen ´ne Runde Skat
-    Bm
-Die Wellen tanzen Tango und der Fluss ist unser Bad
-       Em
-Keiner kann uns hier stören "Hallo Welt, Du kannst uns mal"
-    A
-Wir zelten zelten
-          C
-Ist schon viel zu lange her
-        D
-Viel zu selten gehn wir zelten
-CHORUS:
-Em                             D
-Und danach sitzen wir auf einem Feld
-                         A
-Nur du und ich und die Natur
-Zeig dir die Sterne am Himmelszelt
-C
-Mars, Venus, Pluto, Mond, Merkur
-Em                                   D
-Keine Palmen keinen Strand und kein Hotel
-                         A
-Nur du und ich und die Natur
-                                          C
-Nur wir zwei und ein Zelt ...das wird die beste Party
-A
-Beste Party
-OUTRO:    G    Bm   Em    A
-          C
-Ist schon viel zu lange her
-        D
-Viel zu selten gehn wir zelten
-          G    Bm   Em    A
-C
-Mars, Venus, Pluto, Mond, Merkur
+[Verse]
+Bm                             D
+There ain't no secrets anymore
+Bm                             D
+My name's been hanging on the hook outside your door
+A                               G
+Just an old eyesore
+[Chorus]
+                             D              A
+I got this feeling, I can't keep it down anymore
+G
+Bring me some healing
+        D               A            G
+Saint Cecilia, carry me home to your house of broken bones
+Bm     D       Bm     D
+[Verse 2]
+Bm                                  D
+You're out of sight, I'm out of mind
+Bm                              D
+Been sitting watch your pictures drying on the line
+A                               G
+Just a game of mine
+[Chorus]
+                             D              A
+I got this feeling, I can't keep it down anymore
+G
+Bring me some healing
+        D               A            G               D
+Saint Cecilia, carry me home to your house of broken bones
+[Bridge] X2
 D
-Mars, Venus, Pluto, Mond, Merkur
+I know no matter what I say
+Bm
+Days will come and go
+No matter what I say
+A
+Nothing's set in stone
+No matter what I say
+G
+Days go by
+[Guitar Solo]
+Bm     D       Bm     D       A               G
+[Chorus]
+                            D               A
+I got this feeling, I can't keep it down anymore
+G
+Bring me some healing
+        D               A            G               D
+Saint Cecilia, carry me home to your house of broken bones
+[Bridge] x2
+D
+I know no matter what I say
+Bm
+Days will come and go
+No matter what I say
+A
+Nothing's set in stone
+No matter what I say
+G
+Days go by
+[Outro] x2
+D                                    C
+I know no matter what I say (Saint Cecilia)
+Days will come and go
+                              Bm
+No matter what I say (Saint Cecilia)
+Nothing's set in stone
+No matter what I say
+G
+Days go by
+D
